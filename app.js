@@ -85,7 +85,7 @@ function search() {
     let inputVal = searchTxt.value.toLowerCase();
     let t = noteCards.getElementsByClassName("card"); // to get class of the note element
     let allNotes = noteCards.getElementsByClassName("card-text");
-    console.log("triggered ",inputVal);
+    // console.log("triggered ",inputVal);
     for(i=0;i<allNotes.length;i++){
         let cardTxt = allNotes[i].innerText;
         let t = noteCards.getElementsByClassName("card")
